@@ -50,7 +50,25 @@ header {
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding-top: 5rem 1.5rem 1.5rem 1.5rem; 
+    transform: var(--transition);
+    
 }
+
+.men img {
+   animation: men infinite 4s linear; 
+}
+
+@keyframes men {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(18px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+  }
 
 /* ================= SCROLL DOWN ============== */
 
