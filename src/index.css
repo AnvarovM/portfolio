@@ -38,7 +38,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: linear-gradient(to right, var(--color-bg),var(--color-bg-variant) );
+    background-image: linear-gradient(45deg, var(--color-bg, #27275e));
 }
 
 /* =================== GENERAL STYLES =================== */
