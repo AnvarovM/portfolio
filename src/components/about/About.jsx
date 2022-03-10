@@ -4,7 +4,7 @@ import './about.css';
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
-import ABOUT_IMG2 from '../../assets/1.jpeg';
+import sculpture from '../../assets/sculpture.png';
 
 const About = () => {
   return <section id="about">
@@ -14,7 +14,7 @@ const About = () => {
       <div className="container about_container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ABOUT_IMG2} alt="about image" />  
+            <img src={sculpture} alt="about image" />  
           </div>
         </div>
         <div className="about__content">

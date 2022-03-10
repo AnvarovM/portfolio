@@ -8,20 +8,41 @@
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    background: linear-gradient(var(--color-primary), transparent);
     display: grid;
     place-items: center;
 }
 
 .about__me-image {
     border-radius: 2rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
     overflow: hidden;
-    transform: rotate(10deg);
+    transform: rotate(0deg);
     transition: var(--transition);
+    animation: about-img infinite 4s linear;
 }
 
 .about__me-image:hover {
-    transform: rotate(0deg);
+    animation: about-img infinite 4s linear;
+}
+
+@keyframes about-img {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-18px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+  }
+
+.about__me-image:hover {
+    transform: translateY(-20px);
 }
 
 .about__cards {
