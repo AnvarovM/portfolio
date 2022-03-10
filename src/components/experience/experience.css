@@ -26,7 +26,7 @@
 
 .experience__content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr;  */
     row-gap: 2rem;
 }
 
@@ -63,11 +63,13 @@
     .experience__container > div {
         width: 90%;
         padding: 2rem;
-        /* margin: 0 auto; */
+        margin: 0 auto;
     }
 
-    experience__content{
+    .experience__content{
         padding: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
 
@@ -86,5 +88,9 @@
     .experience__content {
         display: grid;
         grid-template-columns: 1fr;
+    }
+    
+    .experience__left, .experience__right {
+        width: var(--content-width-sm);
     }
 }

@@ -4,7 +4,7 @@ import "./nav.css";
 import { AiOutlineHome, AiOutlineUser } from  'react-icons/ai';
 import { BiBook, BiMessageSquareDetail } from 'react-icons/bi';
 import { RiServiceLine } from 'react-icons/ri';
-import IconButton from '@mui/material/IconButton';
+import { SiPolywork } from 'react-icons/si';
 import Tooltip from '@mui/material/Tooltip';
 
 const Nav = () => {
@@ -35,12 +35,12 @@ const Nav = () => {
             <BiBook />
           </a>
         </Tooltip>
-        <Tooltip  placement="top" title="Services">
-          <a href="#services"
-          onClick={() => setActiveNav('#services')}
-          className={activeNav === '#services' ? 'active' : ''}
+        <Tooltip  placement="top" title="Portfolio">
+          <a href="#portfolio"
+          onClick={() => setActiveNav('#portfolio')}
+          className={activeNav === '#portfolio' ? 'active' : ''}
           >
-            <RiServiceLine />
+            <SiPolywork />
           </a>
         </Tooltip>
         <Tooltip  placement="top-end" title="Contact">
