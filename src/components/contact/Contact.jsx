@@ -1,5 +1,5 @@
-import React from "react";
-import './contact.css'
+import React from 'react';
+import './contact.css';
 import { MdOutlineMail } from 'react-icons/md';
 import { FaTelegramPlane } from 'react-icons/fa';
 import { BsInstagram } from 'react-icons/bs';
@@ -14,20 +14,20 @@ const Contact = () => {
         <article className="contact__option">
           <MdOutlineMail className="contact__option-icon" />
           <h4>Email</h4>
-          <h5>Anvarovmuxammadxuja2001@gmail.com</h5>
-          <a href="mailto:anvarovmuxammadxuja2001@gmail.com" target="_blank">Send a message</a>  
+          <h5>anvarovmuxammadxuja2001@gmail.com</h5>
+          <a href="mailto:anvarovmuxammadxuja2001@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
         </article>
         <article className="contact__option">
           <FaTelegramPlane className="contact__option-icon" />
           <h4>Telegram</h4>
           <h5>@anvarov2027</h5>
-          <a href="https://t.me:/akzmsh" target="_blank">Send a message</a>  
+          <a href="https://t.me:/anvarov2027" target="_blank" rel="noreferrer">Send a message</a>
         </article>
         <article className="contact__option">
           <BsInstagram className="contact__option-icon" />
           <h4>Instagram</h4>
           <h5>akzmsh</h5>
-          <a href="https://instagram.com/akzmsh" target="_blank">Send a message</a>  
+          <a href="https://instagram.com/akzmsh" target="_blank" rel="noreferrer">Send a message</a>
         </article>
       </div>
 
@@ -37,7 +37,7 @@ const Contact = () => {
         <textarea name="message" rows="7" placeholder="Your Message"></textarea>
         <button type="submit" className="btn btn-primary">Send Message</button>
 
-      </form>  
+      </form>
     </div>
   </section>;
 };

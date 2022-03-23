@@ -1,15 +1,15 @@
-import React from "react";
-import "./experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
+import React from 'react';
+import './experience.css';
+import { BsPatchCheckFill } from 'react-icons/bs';
 
 const Experience = () => {
   return <section id="experience">
     <h5>What Skills I Have?</h5>
-    <h2>My Experience</h2>  
+    <h2>My Experience</h2>
 
     <div className="container experience__container">
         <div className="experience__left">
-          <h3>Frontend Development</h3>  
+          <h3>Basic Development</h3>
 
           <div className="experience__content">
             <article className="experience__details">
@@ -18,11 +18,18 @@ const Experience = () => {
                 <h4>Html/Css</h4>
                 <small className="text-light">Experienced</small>
               </div>
-            </article>  
+            </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Bootstrap/Sass/Tailwind</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Styled Components/Tailwind</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -57,7 +64,7 @@ const Experience = () => {
           </div>
         </div>
         <div className="experience__right">
-        <h3>Advanced Development</h3>  
+        <h3>Advanced Development</h3>
 
         <div className="experience__content">
           <article className="experience__details">
@@ -91,7 +98,7 @@ const Experience = () => {
           <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Web3/Blockchain/Etherium</h4>
+                <h4>GraphQL/Sanity</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -102,7 +109,14 @@ const Experience = () => {
               <small className="text-light">Experienced</small>
             </div>
           </article>
-        </div>  
+          <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>Reconciliation Algorithm</h4>
+              <small className="text-light">Experienced</small>
+            </div>
+          </article>
+        </div>
         </div>
     </div>
   </section>;
