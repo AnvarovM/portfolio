@@ -29,18 +29,18 @@ const portfolioData = [
     demo: 'https://ideal-cleaning.vercel.app/b'
   },
   {
+    id: 1241,
+    image: Movie,
+    title: 'Movie App',
+    github: 'https://github.com/AnvarovM/Movie-app',
+    demo: 'https://movie-app-roan-five.vercel.app/'
+  },
+  {
     id: 3,
     image: GoogleCalendar,
     title: 'Goggle Calendar Clone',
     github: 'https://github.com/AnvarovM/google-calendar',
     demo: 'https://google-calendar-clone.vercel.app/'
-  },
-  {
-    id: 1241,
-    image: Movie,
-    title: 'Movie App',
-    github: 'https://github.com/AnvarovM/google-calendar',
-    demo: 'https://movie-app-roan-five.vercel.app/'
   },
   {
     id: 4,
@@ -61,21 +61,21 @@ const portfolioData = [
     image: Amazon,
     title: 'Amazon Clone Website',
     github: 'https://github.com/AnvarovM/Amazon-clone',
-    demo: 'https://jizzaxcity-uz.vercel.app'
+    demo: 'https://amazon-clone-flame-ten.vercel.app/'
   },
   {
     id: 7,
     image: JQuruvchi,
     title: 'JQuruvchi`s Website',
     github: 'https://github.com/AnvarovM/Jquruvchi.uz-',
-    demo: 'https://jizzaxcity-uz.vercel.app'
+    demo: 'https://jquruvchi.uz'
   },
   {
     id: 8,
     image: Airbnb,
     title: 'Airbnb Clone Website',
     github: 'https://github.com/AnvarovM/Airbnb-clone',
-    demo: 'https://jizzaxcity-uz.vercel.app'
+    demo: 'https://airbnb-clone-eight-ochre.vercel.app/'
   },
   {
     id: 9,
