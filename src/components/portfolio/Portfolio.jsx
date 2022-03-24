@@ -2,16 +2,16 @@ import React from 'react';
 import './portfolio.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 // images
-import ShareMe from '../../assets/portfolio/shareme.png';
-import IdealCleaning from '../../assets/portfolio/ideal-cleaning2.png';
-import GoogleCalendar from '../../assets/portfolio/google-calendar.png';
-import TodoIst from '../../assets/portfolio/todoist.png';
-import Amazon from '../../assets/portfolio/amazon.png';
-import Movie from '../../assets/portfolio/movie.png';
-import JizzaxCity from '../../assets/portfolio/jizzaxcity.png';
-import JQuruvchi from '../../assets/portfolio/jquruvchi.png';
-import Airbnb from '../../assets/portfolio/airbnb.png';
-import Windows from '../../assets/portfolio/windows.png';
+import ShareMe from '../../assets/portfolio/share-me.jpeg';
+import IdealCleaning from '../../assets/portfolio/idealcleaning.jpeg';
+import GoogleCalendar from '../../assets/portfolio/google-calendar.jpeg';
+import TodoIst from '../../assets/portfolio/todoist.jpeg';
+import Amazon from '../../assets/portfolio/amazon.jpeg';
+import Movie from '../../assets/portfolio/movieapp.jpeg';
+import JizzaxCity from '../../assets/portfolio/jizzaxcity.jpeg';
+import JQuruvchi from '../../assets/portfolio/jquruvchi.jpeg';
+import Airbnb from '../../assets/portfolio/airbnb.jpeg';
+import Windows from '../../assets/portfolio/windows.jpeg';
 
 const portfolioData = [
   {
