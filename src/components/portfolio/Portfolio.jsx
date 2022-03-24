@@ -98,12 +98,7 @@ const Portfolio = () => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
-                <LazyLoadImage
-                  src={image}
-                  alt={title}
-                  effect="blur"
-                  delayTime="1500"
-                />
+                <LazyLoadImage src={image} alt={title} effect="blur" />
               </div>
               <h3>{title}</h3>
               {/* <small>{small}</small> */}
