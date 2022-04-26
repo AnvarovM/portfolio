@@ -3,6 +3,7 @@ import './portfolio.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 // images
 import ShareMe from '../../assets/portfolio/share-me.jpeg';
+import Commerce from '../../assets/portfolio/ecomerce.png'
 import IdealCleaning from '../../assets/portfolio/idealcleaning.jpeg';
 import GoogleCalendar from '../../assets/portfolio/google-calendar.jpeg';
 import TodoIst from '../../assets/portfolio/todoist.jpeg';
@@ -14,6 +15,13 @@ import Airbnb from '../../assets/portfolio/airbnb.jpeg';
 import Windows from '../../assets/portfolio/windows.jpeg';
 
 const portfolioData = [
+  {
+    id: 131144,
+    image: Commerce,
+    title: 'E-commerce',
+    github: 'https://github.com/AnvarovM/eCommerce',
+    demo: 'https://e-commerce-sanity-stripe.vercel.app/'
+  },
   {
     id: 1,
     image: ShareMe,
