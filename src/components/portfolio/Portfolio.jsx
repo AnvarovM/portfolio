@@ -3,7 +3,8 @@ import './portfolio.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 // images
 import ShareMe from '../../assets/portfolio/share-me.jpeg';
-import Commerce from '../../assets/portfolio/ecomerce.png'
+import Commerce from '../../assets/portfolio/ecomerce.png';
+import Lazydev from '../../assets/portfolio/lazydev.png';
 import IdealCleaning from '../../assets/portfolio/idealcleaning.jpeg';
 import GoogleCalendar from '../../assets/portfolio/google-calendar.jpeg';
 import TodoIst from '../../assets/portfolio/todoist.jpeg';
@@ -15,6 +16,13 @@ import Airbnb from '../../assets/portfolio/airbnb.jpeg';
 import Windows from '../../assets/portfolio/windows.jpeg';
 
 const portfolioData = [
+  {
+    id: 13231144,
+    image: Lazydev,
+    title: 'Lazydev',
+    github: 'https://github.com/AnvarovM/Lazydev',
+    demo: 'https://lazydev.vercel.app/'
+  },
   {
     id: 131144,
     image: Commerce,
@@ -63,35 +71,6 @@ const portfolioData = [
     title: 'Jizzax City`s Website',
     github: 'https://github.com/AnvarovM/Jizzaxcity.uz',
     demo: 'https://jizzaxcity-uz.vercel.app'
-  },
-  {
-    id: 6,
-    image: Amazon,
-    title: 'Amazon Clone Website',
-    github: 'https://github.com/AnvarovM/Amazon-clone',
-    demo: 'https://amazon-clone-flame-ten.vercel.app/'
-  },
-  {
-    id: 7,
-    image: JQuruvchi,
-    title: 'JQuruvchi`s Website',
-    github: 'https://github.com/AnvarovM/Jquruvchi.uz-',
-    demo: 'https://jquruvchi.uz'
-  },
-  {
-    id: 8,
-    image: Airbnb,
-    title: 'Airbnb Clone Website',
-    github: 'https://github.com/AnvarovM/Airbnb-clone',
-    demo: 'https://airbnb-clone-eight-ochre.vercel.app/'
-  },
-  {
-    id: 9,
-    image: Windows,
-    title: 'Windows 10 OS',
-    github: 'https://github.com/AnvarovM/my-os',
-    demo: 'https://windows-os.vercel.app/',
-    small: 'Not ready yet'
   }
 ];
 
